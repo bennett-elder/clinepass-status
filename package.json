@@ -1,0 +1,16 @@
+{
+  "name": "clinepass-status",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Show ClinePass 5-hour, weekly, and monthly usage limits in a terminal status bar",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "status": "node ./src/cli.mjs",
+    "refresh": "node ./src/cli.mjs --refresh",
+    "debug": "node ./src/cli.mjs --debug",
+    "test": "node --test \"test/*.test.mjs\""
+  }
+}

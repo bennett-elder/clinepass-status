@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+*.log
+
+# The tool's own cache, if CLINEPASS_STATUS_CACHE_DIR is ever pointed at the repo
+*.tmp
